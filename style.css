@@ -1,0 +1,89 @@
+::after::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(83, 82, 82);
+    font-family: 'Poppins' ,'sans-serif';
+}
+
+.container {
+    text-transform: uppercase;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(47, 144, 60);
+}
+
+.formulario-datos {
+    display: block;
+    margin: 19px auto;
+    line-height: 29px;
+    text-align: center;
+    display: flex;
+    flex-direction:column ;
+    width: 50%;
+
+}
+
+input {
+    background-color: transparent;
+    line-height: 29px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+}
+
+input:active {
+    border-bottom:1px solid greenyellow;
+}
+
+input:focus {
+    border-bottom:1px solid greenyellow;
+}
+
+.btn-agregar-tarea {
+    margin-top: 13px;
+    height: 50px;
+    font-family:'Poppins','sans-serif' ;
+    border: 2px solid green;
+}
+
+.btn-agregar-tarea:hover {
+
+    margin-top: 13px;
+    height: 50px;
+    font-family:'Poppins','sans-serif' ;
+    border: 2px solid green;
+    background-color: rgb(16, 144, 44);
+    color: ghostwhite;
+}
+
+.listado-detareas {
+    display: flex;
+    flex-direction: column;
+    color: ghostwhite;
+}
+
+.tareass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.material-icons {
+    padding: 2px;
+    align-items: center;
+   color: tomato;
+    margin-top:  15px;
+    cursor: pointer;
+}
